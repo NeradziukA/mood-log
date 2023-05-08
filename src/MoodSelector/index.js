@@ -77,7 +77,7 @@ const MoodSelector = () => {
       {allMoods && (
         <p>
           Your mood history:
-          {JSON.stringify(allMoods.map((m) => `${m.mood} - ${m.id}`))}
+          {JSON.stringify(allMoods.map((m) => `${m.name} : ${m.id}`))}
         </p>
       )}
     </div>
